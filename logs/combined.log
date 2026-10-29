@@ -1,0 +1,24 @@
+2026-10-29 20:28:00 [info] [LoginPage] Open login page
+2026-10-29 20:28:00 [info] [LoginPage] Open login page
+2026-10-29 20:28:03 [info] [LoginPage] loginAs locked_out_user
+2026-10-29 20:28:03 [info] [LoginPage] loginAs standard_user
+2026-10-29 20:31:25 [info] [e2e-checkout] Step 1: logging in as standard_user
+2026-10-29 20:31:25 [info] [LoginPage] Open login page
+2026-10-29 20:31:27 [info] [LoginPage] loginAs standard_user
+2026-10-29 20:35:03 [info] [e2e-checkout] Step 1: logging in as standard_user
+2026-10-29 20:35:03 [info] [LoginPage] Open login page
+2026-10-29 20:35:05 [info] [LoginPage] loginAs standard_user
+2026-10-29 20:36:36 [info] [LoginPage] Open login page
+2026-10-29 20:36:36 [info] [LoginPage] Open login page
+2026-10-29 20:36:37 [info] [LoginPage] Open login page
+2026-10-29 20:36:37 [info] [LoginPage] Open login page
+2026-10-29 20:36:39 [info] [LoginPage] loginAs locked_out_user
+2026-10-29 20:36:39 [info] [LoginPage] loginAs standard_user
+2026-10-29 20:36:39 [info] [LoginPage] loginAs locked_out_user
+2026-10-29 20:36:39 [info] [LoginPage] loginAs standard_user
+2026-10-29 20:36:45 [info] [e2e-checkout] Step 1: logging in as standard_user
+2026-10-29 20:36:45 [info] [LoginPage] Open login page
+2026-10-29 20:36:45 [info] [e2e-checkout] Step 1: logging in as standard_user
+2026-10-29 20:36:45 [info] [LoginPage] Open login page
+2026-10-29 20:36:46 [info] [LoginPage] loginAs standard_user
+2026-10-29 20:36:47 [info] [LoginPage] loginAs standard_user
