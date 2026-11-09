@@ -22,3 +22,29 @@
 2026-10-29 20:36:45 [info] [LoginPage] Open login page
 2026-10-29 20:36:46 [info] [LoginPage] loginAs standard_user
 2026-10-29 20:36:47 [info] [LoginPage] loginAs standard_user
+2026-11-09 20:35:39 [info] Payload is set:{"firstname":"Greesh","lastname":"P","totalprice":100,"dedpositpaid":true,"bookingdates":{"checkin":"2018-01-01","checkout":"2019-01-01"},"additionalneeds":"Breakfast"}
+2026-11-09 20:35:39 [info] Header is set:{"Accept":"application/json","Content-Type":"application/json"}
+2026-11-09 20:37:22 [info] Payload is set: {"firstname":"Jim","lastname":"Brown","totalprice":111,"depositpaid":true,"bookingdates":{"checkin":"2018-01-01","checkout":"2019-01-01"},"additionalneeds":"Breakfast"}
+2026-11-09 20:37:22 [info] Header is set: {"Accept":"application/json","Content-Type":"application/json"}
+2026-11-09 20:37:24 [info] Response is set: {"bookingid":3626,"booking":{"firstname":"Jim","lastname":"Brown","totalprice":111,"depositpaid":true,"bookingdates":{"checkin":"2018-01-01","checkout":"2019-01-01"},"additionalneeds":"Breakfast"}}
+2026-11-09 20:37:24 [info] Created booking id: 3626
+2026-11-09 22:43:20 [info] Payload is set: {"firstname":"Jim","lastname":"Brown","totalprice":111,"depositpaid":true,"bookingdates":{"checkin":"2018-01-01","checkout":"2019-01-01"},"additionalneeds":"Breakfast"}
+2026-11-09 22:43:20 [info] Header is set: {"Accept":"application/json","Content-Type":"application/json"}
+2026-11-09 22:43:21 [info] Response is set: {"bookingid":1452,"booking":{"firstname":"Jim","lastname":"Brown","totalprice":111,"depositpaid":true,"bookingdates":{"checkin":"2018-01-01","checkout":"2019-01-01"},"additionalneeds":"Breakfast"}}
+2026-11-09 22:43:21 [info] Created booking id: 1452
+2026-11-09 23:11:04 [info] Payload is set: {"firstname":"Jim","lastname":"Brown","totalprice":111,"depositpaid":true,"bookingdates":{"checkin":"2018-01-01","checkout":"2019-01-01"},"additionalneeds":"Breakfast"}
+2026-11-09 23:11:04 [info] Header is set: {"Accept":"application/json","Content-Type":"application/json"}
+2026-11-09 23:11:05 [info] Response is set: {"bookingid":79,"booking":{"firstname":"Jim","lastname":"Brown","totalprice":111,"depositpaid":true,"bookingdates":{"checkin":"2018-01-01","checkout":"2019-01-01"},"additionalneeds":"Breakfast"}}
+2026-11-09 23:11:05 [info] Created booking id: 79
+2026-11-10 00:33:06 [info] Created auth token for PUT booking flow
+2026-11-10 00:33:06 [info] Created booking id for update: 970
+2026-11-10 00:33:06 [info] Updated booking id 970: Pramod Dutta
+2026-11-10 00:59:54 [info] Created auth token for patch booking flow
+2026-11-10 00:59:54 [info] Created booking id for update: 4734
+2026-11-10 01:01:30 [info] Created auth token for patch booking flow
+2026-11-10 01:01:30 [info] Created booking id for update: 222
+2026-11-10 01:12:18 [info] Created auth token for patch booking flow
+2026-11-10 01:12:18 [info] Created booking id for update: 712
+2026-11-10 01:13:37 [info] Created auth token for patch booking flow
+2026-11-10 01:13:37 [info] Created booking id for update: 1473
+2026-11-10 01:13:37 [info] Booking 1473 partially updated successfully

@@ -1,0 +1,122 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - heading "🎭 TTA Automation Report" [level=1] [ref=e3]
+    - paragraph [ref=e4]: The Testing Academy - Playwright Framework
+  - generic [ref=e5]:
+    - generic [ref=e6]:
+      - generic [ref=e7]:
+        - generic [ref=e8]: "1"
+        - generic [ref=e9]: Total Tests
+      - generic [ref=e10]:
+        - generic [ref=e11]: "1"
+        - generic [ref=e12]: Passed
+      - generic [ref=e13]:
+        - generic [ref=e14]: "0"
+        - generic [ref=e15]: Failed
+      - generic [ref=e16]:
+        - generic [ref=e17]: "0"
+        - generic [ref=e18]: Skipped
+      - generic [ref=e19]:
+        - generic [ref=e20]: 100.0%
+        - generic [ref=e21]: Pass Rate
+      - generic [ref=e22]:
+        - generic [ref=e23]: 1s
+        - generic [ref=e24]: Duration
+    - generic [ref=e25]:
+      - generic [ref=e26]:
+        - generic [ref=e27]: Environment
+        - generic [ref=e28]: 🌐 API
+      - generic [ref=e29]:
+        - generic [ref=e30]: Browser
+        - generic [ref=e31]: 🌍 chromium
+      - generic [ref=e32]:
+        - generic [ref=e33]: Platform
+        - generic [ref=e34]: Windows
+      - generic [ref=e35]:
+        - generic [ref=e36]: Workers
+        - generic [ref=e37]: "4"
+      - generic [ref=e38]:
+        - generic [ref=e39]: Run ID
+        - generic [ref=e40]: 20261109_204135
+      - generic [ref=e41]:
+        - generic [ref=e42]: Started
+        - generic [ref=e43]: Nov 09, 2026, 20:41:35
+    - generic [ref=e44]:
+      - button "📋 Test Results" [ref=e45] [cursor=pointer]
+      - button "🤖 AI Data" [ref=e46] [cursor=pointer]
+      - button "⚖️ AI Verdict" [ref=e47] [cursor=pointer]
+      - button "🔁 Flaky (0)" [ref=e48] [cursor=pointer]
+      - button "🩹 Self-Heal" [ref=e49] [cursor=pointer]
+    - generic [ref=e50]:
+      - generic [ref=e51]:
+        - generic [ref=e52]:
+          - strong [ref=e53]: "🏷️ Priority:"
+          - generic [ref=e54] [cursor=pointer]:
+            - checkbox "All" [checked] [ref=e55]
+            - generic [ref=e56]: All
+          - generic [ref=e57] [cursor=pointer]:
+            - checkbox "P0" [ref=e58]
+            - generic [ref=e59]: P0
+          - generic [ref=e60] [cursor=pointer]:
+            - checkbox "P1" [ref=e61]
+            - generic [ref=e62]: P1
+          - generic [ref=e63] [cursor=pointer]:
+            - checkbox "Smoke" [ref=e64]
+            - generic [ref=e65]: Smoke
+        - generic [ref=e66]:
+          - strong [ref=e67]: "📊 Status:"
+          - generic [ref=e68] [cursor=pointer]:
+            - checkbox "All" [checked] [ref=e69]
+            - generic [ref=e70]: All
+          - generic [ref=e71] [cursor=pointer]:
+            - checkbox "✅ Passed" [ref=e72]
+            - generic [ref=e73]: ✅ Passed
+          - generic [ref=e74] [cursor=pointer]:
+            - checkbox "❌ Failed" [ref=e75]
+            - generic [ref=e76]: ❌ Failed
+          - generic [ref=e77] [cursor=pointer]:
+            - checkbox "⏭️ Skipped" [ref=e78]
+            - generic [ref=e79]: ⏭️ Skipped
+      - table [ref=e81]:
+        - rowgroup [ref=e82]:
+          - row [ref=e83]:
+            - columnheader "S.No" [ref=e84]
+            - columnheader "Suite" [ref=e85]
+            - columnheader "Test Name" [ref=e86]
+            - columnheader "Author" [ref=e87]
+            - columnheader "Priority" [ref=e88]
+            - columnheader "Tags" [ref=e89]
+            - columnheader "File" [ref=e90]
+            - columnheader "Start Time" [ref=e91]
+            - columnheader "End Time" [ref=e92]
+            - columnheader "Duration" [ref=e93]
+            - columnheader "Status" [ref=e94]
+            - columnheader "Screenshot" [ref=e95]
+            - columnheader "Video" [ref=e96]
+            - columnheader "Trace" [ref=e97]
+        - rowgroup [ref=e98]:
+          - row [ref=e99]:
+            - cell "1" [ref=e100]
+            - cell "chromium" [ref=e101]
+            - cell "Basic Ping Test" [ref=e102]
+            - cell "Greeshma" [ref=e103]
+            - cell "chromium" [ref=e104]
+            - cell [ref=e105]
+            - cell "D:\\AdvancePlaywrightFramework\\src\\tests\\apiTests\\01_restfulbooker_raw\\01_basic_ping.spec.ts:4" [ref=e106]
+            - cell "Nov 09, 2026, 20:41:35" [ref=e107]
+            - cell "Nov 09, 2026, 20:41:36" [ref=e108]
+            - cell "0s" [ref=e109]
+            - cell "Passed" [ref=e110]
+            - cell "N/A" [ref=e112]
+            - cell "N/A" [ref=e113]
+            - cell [ref=e114]:
+              - link "📁 View" [ref=e115] [cursor=pointer]:
+                - /url: traces/trace_1.zip
+  - contentinfo [ref=e116]:
+    - paragraph [ref=e117]:
+      - text: Built with ❤️ by
+      - link "Pramod Dutta" [ref=e118] [cursor=pointer]:
+        - /url: https://thetestingacademy.com
+      - text: "|"
+      - link "The Testing Academy" [ref=e119] [cursor=pointer]:
+        - /url: https://thetestingacademy.com

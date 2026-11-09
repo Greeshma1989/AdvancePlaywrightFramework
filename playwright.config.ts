@@ -9,8 +9,30 @@ import dotenv from 'dotenv';
  dotenv.config({ path: path.resolve(__dirname, '.env') });
 
  function resolveBaseURL(): string {
-  if (process.env.BASE_URL) return process.env.BASE_URL;
   const env = (process.env.TTA_ENV || 'qa').toLowerCase();
+
+  // Explicitly set TTA_ENV should override a stale BASE_URL in the local .env file.
+  if (process.env.TTA_ENV && process.env.TTA_ENV.trim() !== '') {
+    switch (env) {
+      case 'api':
+        return process.env.API_BASE_URL || 'https://restful-booker.herokuapp.com';
+      case 'dev':
+      case 'local':
+        return process.env.DEV_BASE_URL || 'http://localhost:3000';
+      case 'stg':
+      case 'stage':
+      case 'staging':
+        return process.env.STG_BASE_URL || 'https://stage.thetestingacademy.com';
+      case 'prod':
+      case 'production':
+        return process.env.PROD_BASE_URL || 'https://app.thetestingacademy.com';
+      case 'qa':
+      default:
+        return process.env.QA_BASE_URL || 'https://app.thetestingacademy.com';
+    }
+  }
+
+  if (process.env.BASE_URL) return process.env.BASE_URL;
   switch (env) {
     case 'api':
       return process.env.API_BASE_URL || 'https://restful-booker.herokuapp.com';
