@@ -29,10 +29,10 @@ test.describe('Restful Booker booking API', () => {
             additionalneeds: 'Breakfast',
         };
 
-        const payloadForPatch ={
-    "firstname": "RAM PATCH",
-    "totalprice": 2500
-}
+        const payloadForPatch = {
+            "firstname": "RAM PATCH",
+            "totalprice": 2500
+        }
 
 
         let token = '';
@@ -57,7 +57,7 @@ test.describe('Restful Booker booking API', () => {
 
         });
         await test.step('Step 2 - Create booking to update', async () => {
-            
+
             const responseData = await request.post('/booking', {
                 headers,
                 data: payload,
@@ -68,19 +68,19 @@ test.describe('Restful Booker booking API', () => {
             bookingId = data.bookingid;
             expect(bookingId).toBeTruthy();
             logger.info(`Created booking id for update: ${bookingId}`);
-        
-        
+
+
         });
         await test.step('Step 3 - partial Update booking', async () => {
-        
+
             const responseData = await request.patch(`/booking/${bookingId}`, {
                 headers: {
                     ...headers,
-                    Cookie:`token=${token}`
+                    Cookie: `token=${token}`
                 },
                 data: payloadForPatch,
             });
-          expect(responseData.status()).toBe(200);
+            expect(responseData.status()).toBe(200);
 
             const data = await responseData.json();
 
@@ -95,9 +95,35 @@ test.describe('Restful Booker booking API', () => {
             expect(data.additionalneeds).toBe(payload.additionalneeds);
 
             logger.info(`Booking ${bookingId} partially updated successfully`);
-        
+
         });
 
+        await test.step('Step 4 - Get booking and verify updated data', async () => {
+
+            const responseData = await request.get(`/booking/${bookingId}`, {
+                headers: {
+                    'Accept': 'application/json'
+                }
+            });
+            expect(responseData.status()).toBe(200);
+            const data = await responseData.json();
+
+            //verify the patch 
+            expect(data.firstname).toBe(payloadForPatch.firstname);
+            expect(data.totalprice).toBe(payloadForPatch.totalprice);
+
+            // Verify unchanged values
+            expect(data.lastname).toBe(payload.lastname);
+            expect(data.depositpaid).toBe(payload.depositpaid);
+            expect(data.bookingdates).toEqual(payload.bookingdates);
+            expect(data.additionalneeds).toBe(payload.additionalneeds);
+
+            logger.info(`GET booking successful. Booking ID: ${bookingId}`);
+            logger.info(`Verified updated firstname: ${data.firstname}`);
+            logger.info(`Verified updated totalprice: ${data.totalprice}`);
+
+
+        });
 
 
 

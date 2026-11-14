@@ -48,3 +48,17 @@
 2026-11-10 01:13:37 [info] Created auth token for patch booking flow
 2026-11-10 01:13:37 [info] Created booking id for update: 1473
 2026-11-10 01:13:37 [info] Booking 1473 partially updated successfully
+2026-11-10 12:08:45 [info] Created auth token for patch booking flow
+2026-11-10 12:08:45 [info] Created booking id for update: 4103
+2026-11-10 12:08:45 [info] Booking 4103 partially updated successfully
+2026-11-10 12:08:46 [info] GET booking successful. Booking ID: 4103
+2026-11-10 12:08:46 [info] Verified updated firstname: RAM PATCH
+2026-11-10 12:08:46 [info] Verified updated totalprice: 2500
+2026-11-10 12:15:32 [info] Created auth token for patch booking flow
+2026-11-10 12:15:32 [info] Created booking id for update: 2483
+2026-11-10 12:15:32 [info] Booking 2483 partially updated successfully
+2026-11-10 12:15:32 [info] GET booking successful. Booking ID: 2483
+2026-11-10 12:15:32 [info] Verified updated firstname: RAM PATCH
+2026-11-10 12:15:32 [info] Verified updated totalprice: 2500
+2026-11-12 16:28:13 [info] Created Booking ID: 3861
+2026-11-12 16:28:13 [info] Updated booking id : 3861: Pramod Dutta
