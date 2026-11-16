@@ -62,3 +62,17 @@
 2026-11-10 12:15:32 [info] Verified updated totalprice: 2500
 2026-11-12 16:28:13 [info] Created Booking ID: 3861
 2026-11-12 16:28:13 [info] Updated booking id : 3861: Pramod Dutta
+2026-11-16 19:18:46 [info] [create-booking] Step 1: POST /booking for Helper Creator (price 640)
+2026-11-16 19:18:47 [info] [create-booking] Step 1: server responded with status 200
+2026-11-16 19:18:47 [info] [create-booking] Step 2: verifying booking id 4042 echoes the payload
+2026-11-16 19:18:47 [info] [create-booking] Step 2: booking 4042 verified OK
+2026-11-16 19:32:51 [info] [update-booking] Starting test for PUT /booking/{id} with Cookie token
+2026-11-16 19:32:51 [info] [update-booking] Step 2: verify the  create booking 
+2026-11-16 19:32:51 [info] [update-booking] Step 3: verified booking ID 810 for update booking test
+2026-11-16 19:32:51 [info] [update-booking] Step 4: PUT /booking/810 with Cookie token to update booking
+2026-11-16 19:32:52 [info] [update-booking] Test for PUT /booking/{id} with Cookie token completed successfully
+2026-11-16 19:34:22 [info] [update-booking] Starting test  with Cookie token
+2026-11-16 19:34:23 [info] [update-booking] Step 2: verify the  create booking 
+2026-11-16 19:34:23 [info] [update-booking] Step 3: verified booking ID 1591 for update booking test
+2026-11-16 19:34:23 [info] [update-booking] Step 4: PUT /booking/1591 with Cookie token to update booking
+2026-11-16 19:34:23 [info] [update-booking] Test for PUT /booking/1591 with Cookie token completed successfully
