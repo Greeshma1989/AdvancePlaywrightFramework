@@ -76,3 +76,9 @@
 2026-11-16 19:34:23 [info] [update-booking] Step 3: verified booking ID 1591 for update booking test
 2026-11-16 19:34:23 [info] [update-booking] Step 4: PUT /booking/1591 with Cookie token to update booking
 2026-11-16 19:34:23 [info] [update-booking] Test for PUT /booking/1591 with Cookie token completed successfully
+2026-11-18 14:41:42 [info] [e2e-checkout] Step 1: logging in as standard_user
+2026-11-18 14:41:42 [info] [LoginPage] Open login page
+2026-11-18 14:41:43 [info] [LoginPage] loginAs standard_user
+2026-11-20 13:42:23 [info] [e2e-checkout] Step 1: logging in as standard_user
+2026-11-20 13:42:23 [info] [LoginPage] Open login page
+2026-11-20 13:42:25 [info] [LoginPage] loginAs standard_user
